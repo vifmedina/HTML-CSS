@@ -4,21 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
 
     <style>
         body {
             height: 100vh;
+            
+            /*
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
+            background-attachment: fixed;
+
+                SHORTHAND BACKGROUND:
+
+                color > image > position > repeat > attachment
+                background-size: ...;
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             margin: auto;
             padding: 10px;
             border: 1px solid black;
@@ -30,6 +42,15 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis laboriosam ducimus amet fugiat et consequatur delectus a aspernatur, dolore, dolorum error natus inventore aliquid quidem, ipsa dicta qui assumenda? Ab.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt voluptates doloribus provident ad, voluptatibus in commodi perferendis voluptate nisi neque veritatis ipsum illo quaerat nobis, iste temporibus ipsa dolorum quae.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate, ipsam amet vel porro minima hic officiis odio rem officia deleniti, ab minus. Fuga, necessitatibus hic! Magni sint doloremque laboriosam.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis laboriosam ducimus amet fugiat et consequatur delectus a aspernatur, dolore, dolorum error natus inventore aliquid quidem, ipsa dicta qui assumenda? Ab.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt voluptates doloribus provident ad, voluptatibus in commodi perferendis voluptate nisi neque veritatis ipsum illo quaerat nobis, iste temporibus ipsa dolorum quae.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate, ipsam amet vel porro minima hic officiis odio rem officia deleniti, ab minus. Fuga, necessitatibus hic! Magni sint doloremque laboriosam.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis laboriosam ducimus amet fugiat et consequatur delectus a aspernatur, dolore, dolorum error natus inventore aliquid quidem, ipsa dicta qui assumenda? Ab.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt voluptates doloribus provident ad, voluptatibus in commodi perferendis voluptate nisi neque veritatis ipsum illo quaerat nobis, iste temporibus ipsa dolorum quae.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate, ipsam amet vel porro minima hic officiis odio rem officia deleniti, ab minus. Fuga, necessitatibus hic! Magni sint doloremque laboriosam.</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis laboriosam ducimus amet fugiat et consequatur delectus a aspernatur, dolore, dolorum error natus inventore aliquid quidem, ipsa dicta qui assumenda? Ab.</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt voluptates doloribus provident ad, voluptatibus in commodi perferendis voluptate nisi neque veritatis ipsum illo quaerat nobis, iste temporibus ipsa dolorum quae.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate, ipsam amet vel porro minima hic officiis odio rem officia deleniti, ab minus. Fuga, necessitatibus hic! Magni sint doloremque laboriosam.</p>
